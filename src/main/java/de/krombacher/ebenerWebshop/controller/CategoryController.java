@@ -12,7 +12,7 @@ import de.krombacher.ebenerWebshop.repository.CategoryRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/category")
+@RequestMapping("/api/category")
 public class CategoryController {
 
 	@Autowired

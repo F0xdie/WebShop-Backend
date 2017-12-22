@@ -16,7 +16,7 @@ import de.krombacher.ebenerWebshop.repository.OrderRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping(value = "/orders")
+@RequestMapping(value = "/api/orders")
 public class OrderController {
 
 	@Autowired

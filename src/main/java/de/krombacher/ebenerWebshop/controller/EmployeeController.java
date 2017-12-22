@@ -17,7 +17,7 @@ import de.krombacher.ebenerWebshop.repository.EmployeeRepository;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-@RequestMapping("/employees")
+@RequestMapping("/api/employees")
 public class EmployeeController {
 
 	@Autowired
